@@ -1,5 +1,5 @@
-const cross = `<img style="max-width: 98%;" src="/img/cross.png" alt="cross">`;
-const circle = `<img style="max-width: 100%;" src="/img/circle.png" alt="cross">`;
+const cross = `<img style="max-width: 98%;" src="img/cross.png" alt="cross">`;
+const circle = `<img style="max-width: 100%;" src="img/circle.png" alt="cross">`;
 
 let turnCount = 0;
 
