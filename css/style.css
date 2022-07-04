@@ -1,12 +1,11 @@
-. {
-    box-sizing: content-box;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
     background-color: rgb(99, 124, 146);
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: content-box;
+    margin: 0;
 }
 
 .animate-charcter
@@ -24,13 +23,13 @@ body {
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
       font-size: 60px;
-      
+      text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
 }
 
 @keyframes textclip {
@@ -41,14 +40,16 @@ body {
 
 .container {
     max-width: 960px;
-    margin: 0 auto;
+    margin: 40px auto;
+
     text-align: center;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .gridContainer {
     margin: auto;
-    max-width: 325px;
-    max-height: 325px;
+    max-width: 350px;
 }
 
 .gridContainer .gridItem {
@@ -58,11 +59,16 @@ body {
     height: 105px;
     font-size: 30px;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.cross {
-    background-image: url(http://clipart-library.com/images/rcLxML7Ri.png);
-    width: 100%;
-    background-color: rgb(62, 25, 25);
+.gridItem:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
+
+
+.cross {
+    width: 100%;
+}
+
 
