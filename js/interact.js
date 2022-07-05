@@ -23,7 +23,7 @@ $(`.gridItem`).mouseenter(function() {
 
 $(`.gridItem`).on(`click`, function() {
     if ($(this).html() != '') {
-        misClickSound.play();
+        misClickSound.play(0.002);
         return;
     }
     if (turnCount % 2 === 0) {
