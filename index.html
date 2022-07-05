@@ -11,37 +11,66 @@
     <script defer src="js/interact.js"></script>
 </head>
 <body>
+    <div class="initial">
+        <div class="area" >
+            <ul class="circlesss">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+        </div >
+        <br><br><br><br><br>
+        <div class="col-md-12 text-center">
+            <h3 class="animate-charcter"> TIC TAC TOE</h3>
+        </div>
+        <button class="button-82-pushable" id="pressToPlay" role="button">
+            <span class="button-82-shadow"></span>
+            <span class="button-82-edge"></span>
+            <span class="button-82-front text">
+              Press to Play!
+            </span>
+        </button>
+    </div>  
 
-
-    <div class="container">
+    <div class="container visibilityHidden area">
         <div class="col-md-12 text-center">
             <h3 class="animate-charcter"> TIC TAC TOE</h3>
         </div>
         <div class="leftColumn">
-            Player 1: X<br>
-            wins: <span class="player1" >0</span>
+            Player x<br><br>
+            wins <br> <span class="player1" >0</span>
         </div>
+        <div class="gridGridcontainer">
+            <div class="gridContainer">
+                <div id="box1" class="gridItem"></div>
+                <div id="box2" class="gridItem"></div>
+                <div id="box3" class="gridItem"></div>
+                <div id="box4" class="gridItem"></div>
+                <div id="box5" class="gridItem"></div>
+                <div id="box6" class="gridItem"></div>
+                <div id="box7" class="gridItem"></div>
+                <div id="box8" class="gridItem"></div>
+                <div id="box9" class="gridItem"></div>
+            </div>
+        </div>
+
         <div class="rightColumn">
-            Player 2: O<br>
-            wins: <span class="player2" >0</span>
-        </div>
-        <div class="gridContainer">
-            <div id="box1" class="gridItem"></div>
-            <div id="box2" class="gridItem"></div>
-            <div id="box3" class="gridItem"></div>
-            <div id="box4" class="gridItem"></div>
-            <div id="box5" class="gridItem"></div>
-            <div id="box6" class="gridItem"></div>
-            <div id="box7" class="gridItem"></div>
-            <div id="box8" class="gridItem"></div>
-            <div id="box9" class="gridItem"></div>
+            Player O<br><br>
+            wins <br> <span class="player2" >0</span>
         </div>
         <div>
-            <h2>Players turn: <span class="turn">1</span></h2>
             <br>
-
-            
+            <h2>Players turn: <span class="turn">X</span></h2>
+            <br>
         </div>
+        
     </div>    
 </body>
 </html>
