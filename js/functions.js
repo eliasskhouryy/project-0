@@ -1,5 +1,7 @@
 const cross = `<img style="max-width: 98%;" src="img/cross.png" alt="cross">`;
 const circle = `<img style="max-width: 100%;" src="img/circle.png" alt="cross">`;
+const clickSound = new Audio(`sounds/misClick.wav`);
+const misClickSound = new Audio(`sounds/newClick.wav`);
 
 let turnCount = 0;
 
@@ -30,7 +32,7 @@ const win = function() {
         $(`.player1`).html(`${winCounter.player1}`); clearBox();
     } else if ($(`#box4`).html() == circle && $(`#box5`).html() == circle && $(`#box6`).html() == circle) {
         winCounter.player2++;
-        alert(`PLAYER 2 wins!`)
+        alert(`PLAYER 2 wins!`);
         $(`.player2`).html(`${winCounter.player2}`); clearBox();
     } else if ($(`#box7`).html() == cross && $(`#box8`).html() == cross && $(`#box9`).html() == cross) {
         alert(`PLAYER 1 wins!`);
@@ -85,4 +87,7 @@ const win = function() {
         clearBox();
     }
 }
+
+
+
 
