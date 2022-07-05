@@ -152,19 +152,28 @@ body {
 
 
 @media only screen and (max-width: 600px) {
+  .container {
+    max-width: 90%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #baaaaa;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 5px;
+
+}
   .gridGridcontainer {
     display: block;
     width: 40%;
-    margin: 10vw;
+    
   }
 
   .leftColumn {
     display: block;
-    max-width: 10%;
+    max-width: 73%;
     background-color: #29369c;
-    padding: 80px;
+    padding: 20px;
     color: white;
-    margin: auto;
+    margin: 10px auto;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     font-family: 'Press Start 2P', cursive;
     line-height: 40px;
@@ -173,16 +182,21 @@ body {
   
   .rightColumn {
     display: block;
-    max-width: 10%;
+    max-width: 73%;
     background-color: rgb(125, 62, 25);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     color: white;
-    padding:  80px;
-    margin: auto;
+    padding:  20px;
+    margin: 10px auto;
     font-family: 'Press Start 2P', cursive;
     line-height: 40px;
   }
   
+  .animate-charcter
+  {
+        font-size: 30px;
+  }
+
 }
 
 /* float objects------------------------------- */
@@ -206,7 +220,7 @@ body {
   height: 20px;
   background: rgba(255, 255, 255, 0.2);
   animation: animate 25s linear infinite;
-  bottom: -100px;
+  bottom: -150px;
   
 }
 .circlesss li:nth-child(1){
