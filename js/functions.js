@@ -1,5 +1,8 @@
-const cross = `<img style="max-width: 98%;" src="img/cross.png" alt="cross">`;
-const circle = `<img style="max-width: 100%;" src="img/circle.png" alt="cricle">`;
+let cross;
+let circle;
+
+// const cross = `<img style="max-width: 98%;" src="img/cross.png" alt="cross">`;
+// const circle = `<img style="max-width: 100%;" src="img/circle.png" alt="cricle">`;
 const clickSound = new Audio(`sounds/misClick.wav`);
 const misClickSound = new Audio(`sounds/newClick.wav`);
 
@@ -15,78 +18,78 @@ const clearBox = function(){
     turnCount = 0;
 };
 
-
-
 const win = function() {
+    // const cross = $(`#player1option option:selected`).html();
+    // const circle = `<img style="max-width: 100%;" src="img/circle.png" alt="cricle">`;
+    
     if ($(`#box1`).html() == cross && $(`#box2`).html() == cross && $(`#box3`).html() == cross) {
         setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}
-        , 300);
+        , 200);
         winCounter.player1++;
         $(`.player1`).html(`${winCounter.player1}`);     
     } else if ($(`#box1`).html() == circle && $(`#box2`).html() == circle && $(`#box3`).html() == circle) {
-        setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 300)
+        setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 200)
         winCounter.player2++;
         $(`.player2`).html(`${winCounter.player2}`); 
     } else if ($(`#box4`).html() == cross && $(`#box5`).html() == cross && $(`#box6`).html() == cross) {
-        setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}, 300);
+        setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}, 200);
         winCounter.player1++;
         $(`.player1`).html(`${winCounter.player1}`); 
     } else if ($(`#box4`).html() == circle && $(`#box5`).html() == circle && $(`#box6`).html() == circle) {
-        setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 300);
+        setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 200);
         winCounter.player2++;
         $(`.player2`).html(`${winCounter.player2}`); 
     } else if ($(`#box7`).html() == cross && $(`#box8`).html() == cross && $(`#box9`).html() == cross) {
-        setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}, 300);
+        setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}, 200);
         winCounter.player1++;
         $(`.player1`).html(`${winCounter.player1}`); 
     } else if ($(`#box7`).html() == circle && $(`#box8`).html() == circle && $(`#box9`).html() == circle) {
-        setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 300)
+        setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 200)
         winCounter.player2++;
         $(`.player2`).html(`${winCounter.player2}`); 
     } else if ($(`#box1`).html() == cross && $(`#box4`).html() == cross && $(`#box7`).html() == cross) {
-        setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}, 300);
+        setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}, 200);
         winCounter.player1++;
         $(`.player1`).html(`${winCounter.player1}`); 
     } else if ($(`#box1`).html() == circle && $(`#box4`).html() == circle && $(`#box7`).html() == circle) {
-        setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 300)
+        setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 200)
         winCounter.player2++;
         $(`.player2`).html(`${winCounter.player2}`); 
     } else if ($(`#box2`).html() == cross && $(`#box5`).html() == cross && $(`#box8`).html() == cross) {
-        setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}, 300);
+        setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}, 200);
         winCounter.player1++;
         $(`.player1`).html(`${winCounter.player1}`); 
     } else if ($(`#box2`).html() == circle && $(`#box5`).html() == circle && $(`#box8`).html() == circle) {
-        setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 300)
+        setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 200)
         winCounter.player2++;
         $(`.player2`).html(`${winCounter.player2}`); 
     } else if ($(`#box3`).html() == cross && $(`#box6`).html() == cross && $(`#box9`).html() == cross) {
-        setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}, 300);
+        setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}, 200);
         winCounter.player1++;
         $(`.player1`).html(`${winCounter.player1}`); 
     } else if ($(`#box3`).html() == circle && $(`#box6`).html() == circle && $(`#box9`).html() == circle) {
-        setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 300)
+        setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 200)
         winCounter.player2++;
         $(`.player2`).html(`${winCounter.player2}`); 
     } else if ($(`#box1`).html() == cross && $(`#box5`).html() == cross && $(`#box9`).html() == cross) {
-        setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}, 300);
+        setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}, 200);
         winCounter.player1++;
         $(`.player1`).html(`${winCounter.player1}`); 
     } else if ($(`#box1`).html() == circle && $(`#box5`).html() == circle && $(`#box9`).html() == circle) {
-        setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 300)
+        setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 200)
         winCounter.player2++;        
         $(`.player2`).html(`${winCounter.player2}`); 
     } else if ($(`#box3`).html() == cross && $(`#box5`).html() == cross && $(`#box7`).html() == cross) {
-        setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}, 300);
+        setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}, 200);
         winCounter.player1++;
         $(`.player1`).html(`${winCounter.player1}`); 
     } else if ($(`#box3`).html() == circle && $(`#box5`).html() == circle && $(`#box7`).html() == circle) {
-         setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 300)
+         setTimeout(function() {alert(`PLAYER 2 wins!`); clearBox();}, 200)
         winCounter.player2++;
         $(`.player2`).html(`${winCounter.player2}`); 
     } else if (turnCount >= 9) {
         setTimeout(function() {alert(`draw`);
-        clearBox();}, 300);
-        
+        clearBox();}, 200);
     }
 }
 
