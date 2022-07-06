@@ -14,9 +14,6 @@ const clearBox = function(){
 };
 
 const win = function() {
-    // const cross = $(`#player1option option:selected`).html();
-    // const circle = `<img style="max-width: 100%;" src="img/circle.png" alt="cricle">`;
-    
     if ($(`#box1`).html() == cross && $(`#box2`).html() == cross && $(`#box3`).html() == cross) {
         setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}
         , 200);
