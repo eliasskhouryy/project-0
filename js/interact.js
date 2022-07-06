@@ -73,14 +73,14 @@ $(`#chooseget1`).on(`click`, function()  {
 $(`#choosetom1`).on(`click`, function()  {
     $(this).addClass(`backgroundSelector`)
     circle = $(`#choosetom1`).html()
-        if (circle != $(this)) {
+        if (cross != $(this)) {
             console.log(`stop`);
             $(`#chooseCross1, #chooseCircle1, #chooseget1`).removeClass(`backgroundSelector`);
-            circle = $(this).html();
+            cross = $(this).html();
             return;
         } 
 } )
- 
+//  ------------------- second selector -----------------//
 $(`#chooseCircle2`).on(`click`, function()  {
     $(this).addClass(`backgroundSelector`);
     circle = $(this).html();
