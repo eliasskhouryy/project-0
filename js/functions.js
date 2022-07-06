@@ -1,13 +1,8 @@
 let cross;
 let circle;
-
-// const cross = `<img style="max-width: 98%;" src="img/cross.png" alt="cross">`;
-// const circle = `<img style="max-width: 100%;" src="img/circle.png" alt="cricle">`;
 const clickSound = new Audio(`sounds/misClick.wav`);
 const misClickSound = new Audio(`sounds/newClick.wav`);
-
 let turnCount = 0;
-
 const winCounter = {
     player1: 0,
     player2: 0
