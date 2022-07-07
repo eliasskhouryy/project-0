@@ -86,7 +86,7 @@ $(`#chooseCircle2`).on(`click`, function()  {
     circle = $(this).html();
         if (circle != $(this)) {
             console.log(`stop`);
-            $(`#chooseCross2, #chooseget2`).removeClass(`backgroundSelector`);
+            $(`#chooseCross2, #chooseget2, #choosetom2`).removeClass(`backgroundSelector`);
             circle = $(this).html();
             return;
         } 
