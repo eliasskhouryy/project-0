@@ -7,6 +7,8 @@
 
 
 
+Accessible online at [https://eliasskhouryy.github.io/project-0/](https://eliasskhouryy.github.io/project-0/)
+
 <p align="center">
 <img style="width: 70%;" alt="Font Example Screenshot" src="img/menu.png">
 </p>
@@ -19,7 +21,6 @@
 
 - [Design](#design)
 - [Built With](#built-with)
-- [Contributing](#contributing)
 - [Creator](#creator)
 - [Acknowledgments](#acknowledgments)  
 <br><br>
