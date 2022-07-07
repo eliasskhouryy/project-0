@@ -3,14 +3,17 @@
 
 <h2 style="text-align: center;">Welcome to project Elias Khoury's project</h2>
 
-<h3 style="text-align: center; line-height: 50px;">This a full responsive tic-tac-toe game with the options to select different markers, written in HTML, CSS and javascript.</h3>
+<h3 style="text-align: center; line-height: 50px;">This a responsive tic-tac-toe game with the options to select different markers, written in HTML, CSS and javascript.</h3>
 
 
 
 Accessible online at [https://eliasskhouryy.github.io/project-0/](https://eliasskhouryy.github.io/project-0/)
 
-<p align="center">
-<img style="width: 70%;" alt="Font Example Screenshot" src="img/menu.png">
+<p>
+<img style="width: 40%; " alt="Font Example Screenshot" src="img/menu.png">
+</p>
+<p>
+<img style="width: 40%; " alt="Font Example Screenshot" src="img/secondPage.png">
 </p>
 
 ------
@@ -21,6 +24,7 @@ Accessible online at [https://eliasskhouryy.github.io/project-0/](https://eliass
 
 - [Design](#design)
 - [Built With](#built-with)
+- [Functionality](#functionality)
 - [Creator](#creator)
 - [Acknowledgments](#acknowledgments)  
 <br><br>
@@ -45,6 +49,10 @@ Accessible online at [https://eliasskhouryy.github.io/project-0/](https://eliass
 <img style="width:70%; height: ;" alt="Font Example Screenshot" src="img/colorPalette.png">
 </p>
 
+### Other design factors
+- It has been optimised used media query for mobile use as well.
+- There are few animated aspects (the title and the initial backdrop).
+
 
 -------
 ------
@@ -57,6 +65,18 @@ Accessible online at [https://eliasskhouryy.github.io/project-0/](https://eliass
 - [CSS3](https://www.w3schools.com/css/)
 - [JavaScript](https://www.w3schools.com/js/DEFAULT.asp) with the [JQuery](https://jquery.com/) library.
 - Hosted on [Github](https://github.com/)
+
+<br>
+
+---
+______
+
+## Functionality
+- You can select different player markers.
+- Sound effects on placing a marker and a win sound.
+- Local storage is enabled with a **save** and **retrieve previous score** button.
+- Clear board button has been implemented incase of any current ingame issues.
+
 
 <br>
 
