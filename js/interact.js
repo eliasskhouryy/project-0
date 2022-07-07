@@ -1,6 +1,6 @@
 
 
-$(`#pressToPlay`).on(`click`, function(){
+$(`#pressToPlay`).on(`click`, function(){ //PRESS TO PLAY BUTTON
     if (cross == null || circle == null) {
         alert(`make sure both players have selected markers`)
         return;
@@ -13,13 +13,13 @@ $(`#pressToPlay`).on(`click`, function(){
     }
 })
 
-$(`.clearButton`).on(`click`, function(){
+$(`.clearButton`).on(`click`, function(){ //CLEAR BOARD BUTTON
     $(`.gridItem`).html(``);
     turnCount = 0;
     $(`.turn`).html(`1`);
 })
 
-$(`.gridItem`).on(`click`, function() {
+$(`.gridItem`).on(`click`, function() { //MARKER PRESS DOWN BUTTON
     if ($(this).html() != '') {
         misClickSound.play();
         return;
@@ -39,88 +39,27 @@ $(`.gridItem`).on(`click`, function() {
     }    
 });
 
-$(`#chooseCircle1`).on(`click`, function()  {
+$(`.player1selector div`).on(`click`, function()  {  // PLAYER 1 SELECTOR
     $(this).addClass(`backgroundSelector`);
     cross = $(this).html();
         if (cross != $(this)) {
             console.log(`stop`);
-            $(`#chooseCross1, #chooseget1, #choosetom1`).removeClass(`backgroundSelector`);
+            $(`.player1selector div`).removeClass(`backgroundSelector`);
+            $(this).addClass(`backgroundSelector`);
             cross = $(this).html();
             return;
         } 
 } )
 
-$(`#chooseCross1`).on(`click`, function()  {
-    $(this).addClass(`backgroundSelector`)
-    cross = $(this).html();
-        if (cross != $(this)) {
-            $(`#chooseCircle1, #chooseget1, #choosetom1`).removeClass(`backgroundSelector`);
-            cross = $(this).html();
-            return;
-        } 
-} )
-
-$(`#chooseget1`).on(`click`, function()  {
-    $(this).addClass(`backgroundSelector`)
-    cross = $(`#chooseget1`).html()
-        if (cross != $(this)) {
-            console.log(`stop`);
-            $(`#chooseCross1, #chooseCircle1, #choosetom1`).removeClass(`backgroundSelector`);
-            cross = $(this).html();
-            return;
-        } 
-} )
-
-$(`#choosetom1`).on(`click`, function()  {
-    $(this).addClass(`backgroundSelector`)
-    circle = $(`#choosetom1`).html()
-        if (cross != $(this)) {
-            console.log(`stop`);
-            $(`#chooseCross1, #chooseCircle1, #chooseget1`).removeClass(`backgroundSelector`);
-            cross = $(this).html();
-            return;
-        } 
-} )
-//  ------------------- second selector -----------------//
-$(`#chooseCircle2`).on(`click`, function()  {
+$(`.player2selector div`).on(`click`, function()  {  // PLAYER 2 SELECTOR
     $(this).addClass(`backgroundSelector`);
     circle = $(this).html();
         if (circle != $(this)) {
             console.log(`stop`);
-            $(`#chooseCross2, #chooseget2, #choosetom2`).removeClass(`backgroundSelector`);
+            $(`.player2selector div`).removeClass(`backgroundSelector`);
+            $(this).addClass(`backgroundSelector`);
             circle = $(this).html();
             return;
         } 
 } )
 
-$(`#chooseCross2`).on(`click`, function()  {
-    $(this).addClass(`backgroundSelector`)
-    circle = $(this).html();
-        if (circle != $(this)) {
-            $(`#chooseCircle2, #chooseget2, #choosetom2`).removeClass(`backgroundSelector`);
-            circle = $(this).html();
-            return;
-        } 
-} )
-
-$(`#chooseget2`).on(`click`, function()  {
-    $(this).addClass(`backgroundSelector`)
-    circle = $(`#chooseget2`).html()
-        if (circle != $(this)) {
-            console.log(`stop`);
-            $(`#chooseCross2, #chooseCircle2, #choosetom2`).removeClass(`backgroundSelector`);
-            circle = $(this).html();
-            return;
-        } 
-} )
-
-$(`#choosetom2`).on(`click`, function()  {
-    $(this).addClass(`backgroundSelector`)
-    circle = $(`#choosetom2`).html()
-        if (circle != $(this)) {
-            console.log(`stop`);
-            $(`#chooseCross2, #chooseCircle2, #chooseget2`).removeClass(`backgroundSelector`);
-            circle = $(this).html();
-            return;
-        } 
-} )
