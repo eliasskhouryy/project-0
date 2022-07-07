@@ -16,6 +16,7 @@ $(`#pressToPlay`).on(`click`, function(){
 $(`.clearButton`).on(`click`, function(){
     $(`.gridItem`).html(``);
     turnCount = 0;
+    $(`.turn`).html(`1`);
 })
 
 $(`.gridItem`).on(`click`, function() {
