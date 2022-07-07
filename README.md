@@ -50,7 +50,7 @@ Accessible online at [https://eliasskhouryy.github.io/project-0/](https://eliass
 </p>
 
 ### Other design factors
-- It has been optimised used media query for mobile use as well.
+- It has been optimised using media query for mobile use.
 - There are few animated aspects (the title and the initial backdrop).
 
 
@@ -75,7 +75,7 @@ ______
 - You can select different player markers.
 - Sound effects on placing a marker and a win sound.
 - Local storage is enabled with a **save** and **retrieve previous score** button.
-- Clear board button has been implemented incase of any current ingame issues.
+- Clear board button has been implemented incase of any current game issues.
 
 
 <br>
