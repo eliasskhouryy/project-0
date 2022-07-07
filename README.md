@@ -1,56 +1,84 @@
-# the rest of this line is heading
-## subheading
-### sub sub heading
 
-heading  (same as subheading)
+<h1 style="text-align: center; line-height:  80px;">TIC TAC TOE - Project 0 </h1>
+
+<h2 style="text-align: center;">Welcome to project Elias Khoury's project</h2>
+
+<h3 style="text-align: center; line-height: 50px;">This a full responsive tic-tac-toe game with the options to select different markers, written in HTML, CSS and javascript.</h3>
+
+
+
+<p align="center">
+<img style="width: 70%;" alt="Font Example Screenshot" src="img/menu.png">
+</p>
+
+------
+-----
+<br>
+
+## **Table of Contents**
+
+- [Design](#design)
+- [Built With](#built-with)
+- [Contributing](#contributing)
+- [Creator](#creator)
+- [Acknowledgments](#acknowledgments)  
+<br><br>
+------
+------
+  <br>
+
+## Design
+<br>
+
+### Fonts
+
+[Press Start 22p](https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap) - this is a classic bitmap font that is based on the Namco arcade games design.     
+
+<br>
+
+### Main Color Scheme
+
+<br>
+
+<p line-height=50px>
+<img style="width:70%; height: ;" alt="Font Example Screenshot" src="img/colorPalette.png">
+</p>
+
+
 -------
+------
 
-heading( h1) 
-=============
+<br>
 
+## Built With
 
-Paragraphs are respected
+- [HTML5](https://www.w3schools.com/html/)
+- [CSS3](https://www.w3schools.com/css/)
+- [JavaScript](https://www.w3schools.com/js/DEFAULT.asp) with the [JQuery](https://jquery.com/) library.
+- Hosted on [Github](https://github.com/)
 
-New lines are separating your paragraphs.
+<br>
 
+---
+______
 
+<br>
 
+## Creator
 
-## textual emphasis
-here is a paragraph with **bold** and *italic* text. you can also write _underscore_ also __bold__. 
-wow this is ***intense*** (does both).
+- **Elias Khoury** - a student of General Assembly.
 
-
-## lists
-
-- group 
-- hello
-alternative
-* hello
-* hello
-1. hello
-2. hello 
-3. 
-3. 
-3. 
-
-## links
-links are important! here is a link to [github](http://www.github.com/).
-
-![alttextinhere](thelink) -- images
+<br>
 
 
-commonly used variable in the browser is called `document`. see also: `window`, which also crops up a lot. 
+-----
+----
 
-for longer code use:
+<br>
 
-``` javascript
-const hey = function () {
-    console.log(`hello`);
-}
- 
-```
 
-# Tictactoe
-
-## Welcome to my project 0
+## Acknowledgments 
+- General Assembly teachers (*Joel & Loden*) and other student feedback. 
+- Coffee
+- Youtube
+- Dual monitors
