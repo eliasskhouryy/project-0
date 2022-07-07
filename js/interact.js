@@ -4,7 +4,7 @@ $(`#pressToPlay`).on(`click`, function(){
     if (cross == null || circle == null) {
         alert(`make sure both players have selected markers`)
         return;
-    } else if (cross === circle){
+    } else if (cross == circle){
         alert(`please select different markers`);
         return;
     } else {
