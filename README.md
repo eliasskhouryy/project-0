@@ -1,7 +1,7 @@
 
 <h1 style="text-align: center; line-height:  80px;">TIC TAC TOE - Project 0 </h1>
 
-<h2 style="text-align: center;">Welcome to project Elias Khoury's project</h2>
+<h2 style="text-align: center;">Welcome to Elias Khoury's project0</h2>
 
 <h3 style="text-align: center; line-height: 50px;">This a responsive tic-tac-toe game with the options to select different markers, written in HTML, CSS and javascript.</h3>
 
