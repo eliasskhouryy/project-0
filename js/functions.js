@@ -9,12 +9,12 @@ const winCounter = {
     player2: 0
 }
 
-const clearBox = function(){
+const clearBox = function(){ //clear all boxes
     $(`#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9`).html(``);
     turnCount = 0;
 };
 
-const win = function() {
+const win = function() { //win function
     if ($(`#box1`).html() == cross && $(`#box2`).html() == cross && $(`#box3`).html() == cross) {
         setTimeout(function() {alert(`PLAYER 1 wins!`); clearBox();}
         , 200);

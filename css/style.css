@@ -2,7 +2,6 @@
 
 *{
   box-sizing: content-box;
-
 }
 
 
@@ -13,7 +12,6 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: content-box;
     margin: 0;
-    
 }
 
 .animate-charcter
@@ -193,9 +191,6 @@ body {
 }
 
 
-
-
-
 @media only screen and (max-width: 600px) {
   .body {
     width: 90%;
@@ -292,8 +287,6 @@ body {
 .scoreButton .retrieveStored {
   margin-bottom: 5px;
 }
-
-
 
 /* float objects------------------------------- */
 .area{
@@ -397,8 +390,6 @@ body {
   }
 
 }
-
-
 
 /* PRESS TO PLAY BUTTON ------------------------ */
       .button-82-pushable {

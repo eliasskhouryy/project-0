@@ -63,8 +63,7 @@ Accessible online at [https://eliasskhouryy.github.io/project-0/](https://eliass
 
 - [HTML5](https://www.w3schools.com/html/)
 - [CSS3](https://www.w3schools.com/css/)
-- [JavaScript](https://www.w3schools.com/js/DEFAULT.asp) with the [JQuery](https://jquery.com/) library.
-- Hosted on [Github](https://github.com/)
+- [JavaScript](https://www.w3schools.com/js/DEFAULT.asp) 
 
 <br>
 
